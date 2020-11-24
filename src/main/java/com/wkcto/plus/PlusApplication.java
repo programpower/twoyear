@@ -5,7 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @MapperScan:扫描器，指定Mapper类所在的包
+ * @MapperScan:扫描器，指定Mapper类所在的包 
+ 
  */
 @SpringBootApplication
 @MapperScan(value = "com.wkcto.plus.mapper")
